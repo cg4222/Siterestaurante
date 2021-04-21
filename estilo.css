@@ -1,0 +1,73 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./img/4OBj7pw\ -\ Imgur.png);/*Adicionado imagem de fundo do site*/
+}
+nav a{ /*adicionado fundo das letras e fonte do menu de navegação*/
+    color: white;
+}
+nav a:hover{ /*adicionado hover e propriedades dentro do hover do menu de navegação*/
+    background:#008d8f;
+    border-radius:10px;
+    color: white;
+    box-shadow: black 10px 10px 20px;
+    
+}
+.position{ /*Posição do texto e cor do texto principal no menu da pagina*/
+    text-align: center;
+    color: white;
+    position: relative;
+    box-shadow: black 10px 10px 20px;
+    top: 200px;
+}
+h1 { /*Estilo da Frase "Faça seu pedido"*/
+    width: 250px;
+    box-shadow: black 10px 10px 20px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+    opacity: 80%;
+}
+
+.text-center p{ /*Estilo da Frase "Tempero"*/
+    box-shadow: black 10px 10px 20px;
+    background: black;
+    opacity: 55%;
+    width: 220px;
+    border-radius: 7px;
+}
+.botao{ /*tentando centralizar botão de pedido no home*/
+    box-shadow: black 10px 10px 20px;
+    color:black;
+    background-color: white;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+ .botao:hover {
+    text-decoration: none;
+    background: #008d8f;
+    color: white;
+    padding: 10px;
+    box-shadow: black 10px 10px 20px;
+ }
+
+ .redes a img { /*Div responsável pelos botões das redes sociais*/
+     height: 50px;
+     position: relative;
+     top: 385px;
+     left: 15px;
+ }
+
+ @media only screen and ( max-width: 500px) { /*responsividade dos botões das redes sociais*/
+    .redes a img {top: 300px}
+ }
